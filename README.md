@@ -36,7 +36,7 @@ FFXIV の攻略や日々のプレイを少し楽にするための、Dalamud プ
 | Repository | Type | Languages | Libraries / Platform |
 | --- | --- | --- | --- |
 | [RaidFlow](https://github.com/Rin-0617/Raidflow) | 固定攻略向けのタイムラインメモ / 軽減計画ツール | C# | Dalamud API 15, .NET 10, Dear ImGui, FFLogs GraphQL API, xUnit, GitHub Actions |
-| [BeastHelper](https://github.com/Rin-0617/BeastHelper) | 蛮神使い（Beastmaster）向けのナビゲーション補助 | C# | Dalamud API 15, .NET 10, Lumina raw rows, Dear ImGui |
+| [BeastHelper](https://github.com/Rin-0617/BeastHelper) | 魔獣使い（Beastmaster）向けのナビゲーション補助 | C# | Dalamud API 15, .NET 10, Lumina raw rows, Dear ImGui |
 
 ## What I Build
 
