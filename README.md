@@ -13,7 +13,7 @@
 ## About
 
 FFXIV の攻略や日々のプレイを少し楽にするための、Dalamud プラグインを作っています。  
-固定向けのタイムライン / 軽減計画ツール、パーティ募集のフィルター、ジョブ補助ツールなどが中心で、ImGui のオーバーレイ表示、公式 UI の拡張、ゲームデータ（Lumina）の読み取り、FFLogs API 連携あたりを触っています。
+固定向けのタイムライン / 軽減計画ツール、パーティ募集のフィルター、リプレイでのギミック回避練習、ジョブ補助ツールなどが中心で、ImGui のオーバーレイ表示、公式 UI の拡張、ゲームデータ（Lumina）の読み取り、ゲーム関数のフック、FFLogs API 連携あたりを触っています。
 
 ## Install
 
@@ -45,6 +45,7 @@ https://raw.githubusercontent.com/Rin-0617/RinPlugins/main/pluginmaster.json
 | --- | --- | --- | --- |
 | [PartySieve](https://github.com/Rin-0617/PartySieve) | パーティ募集のスパム除去 / 高機能フィルター / 募集主 DC 表示 | C# | Dalamud API 15, .NET 10, Dear ImGui, FFXIVClientStructs, xUnit, GitHub Actions |
 | [RaidFlow](https://github.com/Rin-0617/Raidflow) | 固定攻略向けのタイムラインメモ / 軽減計画ツール | C# | Dalamud API 15, .NET 10, Dear ImGui, FFLogs GraphQL API, xUnit, GitHub Actions |
+| [ReplayDrill](https://github.com/Rin-0617/ReplayDrill) | A Realm Recorded のリプレイでギミック回避を練習 | C# | Dalamud API 15, .NET 10, Dear ImGui, FFXIVClientStructs, Lumina, GitHub Actions |
 | [BeastHelper](https://github.com/Rin-0617/BeastHelper) | 魔獣使い（Beastmaster）向けのナビゲーション補助 | C# | Dalamud API 15, .NET 10, Lumina raw rows, Dear ImGui |
 | [RinPlugins](https://github.com/Rin-0617/RinPlugins) | プラグインの配布リポジトリ | Python | GitHub Actions |
 
@@ -53,6 +54,7 @@ https://raw.githubusercontent.com/Rin-0617/RinPlugins/main/pluginmaster.json
 - 固定メンバーで共有するタイムラインと軽減割り当てを 1 画面で編集できるツール
 - 攻略中に参照しやすい ImGui オーバーレイ
 - リージョン内フリーマッチングで増えたパーティ募集を、スパム除去と AND / OR の条件で絞り込み、募集主の DC を公式 UI に色分け表示する機能
+- リプレイの中のキャラを自分で動かし、ノックバックや強制移動も含めてギミックの回避を判定する練習ツール
 - FFLogs のログからタイムライン下書きや軽減使用例を取り込む機能
 - ゲーム内シート（Lumina）を読んで名前やアイコンを解決するジョブ補助ツール
 
