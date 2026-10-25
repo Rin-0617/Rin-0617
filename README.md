@@ -49,6 +49,7 @@ https://raw.githubusercontent.com/Rin-0617/RinPlugins/main/pluginmaster.json
 | [BeastHelper](https://github.com/Rin-0617/BeastHelper) | 魔獣使い（Beastmaster）の闘獣練（Crucible）自動アシスト / 魔獣捕獲ナビ | C# | Dalamud API 15, .NET 10, Dear ImGui, FFXIVClientStructs, Lumina, AutoDuty IPC, GitHub Actions |
 | [RinUi](https://github.com/Rin-0617/RinUi) | 各プラグイン共通の UI テーマ（サイドバー + 水色アクセント・ソース共有） | C# | Dalamud API 15, Dear ImGui |
 | [RinPlugins](https://github.com/Rin-0617/RinPlugins) | プラグインの配布リポジトリ | Python | GitHub Actions |
+| [ReplayToolboxDist](https://github.com/Rin-0617/ReplayToolboxDist) | ReplayToolbox の配布専用リポジトリ（利用には Discord ロール認証が必要 / ソース非公開） | — | 配布専用 |
 
 ## What I Build
 
